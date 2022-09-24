@@ -8,6 +8,10 @@ public class bnjao {
 		System.setProperty("webdriver.chrome.driver.exe", "C:\\Users\\amanu\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://amanuttam1192.github.io/");
+		System.out.println(driver.getTitle());
+		System.out.println(driver.getCurrentUrl());
+		driver.close();
+		driver.quit();
 
 	}
 
