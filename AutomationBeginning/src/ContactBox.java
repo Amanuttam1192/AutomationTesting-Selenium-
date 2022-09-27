@@ -13,6 +13,7 @@ public class ContactBox {
 		driver.findElement(By.id("email")).sendKeys("ash.kvuc@gmail.com");
 		driver.findElement(By.id("message")).sendKeys("hil hil ke nacho nacho");
 		driver.findElement(By.className("primary")).click();
+		driver.close();
 	}
 
 }
