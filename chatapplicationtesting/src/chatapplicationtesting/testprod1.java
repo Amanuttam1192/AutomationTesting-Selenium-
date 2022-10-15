@@ -9,7 +9,7 @@ public class ContactBox {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver.exe", "C:\\Users\\amanu\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-		for(int i=0;i<5;i++) {
+		 {
 		driver.get("http://amitatstarship6261.com/");
 		driver.findElement(By.id("name")).sendKeys("SeleniumTesing(Aman)");
 		WebElement chooseFile = driver.findElement(By.xpath("//*[@id=\"root\"]/div[2]/div[1]/form/div[2]/input"));
